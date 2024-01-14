@@ -1,0 +1,139 @@
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    margin: 20px;
+    background-color: #fdebd0; /* Light peach background color */
+}
+
+#myApp {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #f8d7da; /* Light pink background color */
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#custom-title-bar {
+    background-color: #ffccaa; /* Light peach background color */
+    color: #7c4c38; /* Lighter brown color */
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    -webkit-app-region: drag;
+}
+#title-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+#window-controls {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    display: flex;
+    gap: 5px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #fff;
+}
+
+#window-controls div {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #bab8b8; /* Light gray background color */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+#window-controls div:hover {
+    background-color: #d9534f; /* Darker gray background color on hover */
+}
+
+input {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    width: 70%;
+    padding: 10px;
+    border: 2px solid #d9534f; /* Red border */
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+button {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    padding: 10px;
+    cursor: pointer;
+    background-color: #cc9966; /* Lighter brown color */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+button:hover {
+    background-color: #ff99cc; /* Darker blue on hover */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+h1 {
+    color: #7c4c38; /* Lighter brown color for the title */
+}
+
+.coffee-decoration {
+    font-size: 24px;
+    margin-right: 5px;
+}
+
+.image-decoration {
+    width: 100px;
+    height: 100px;
+    margin-right: 5px;
+}
+li {
+    margin: 10px 0;
+    background-color: #ffccaa; 
+    padding: 10px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+li {
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 10px;
+}
+
+li input[type="checkbox"] {
+    appearance: none;
+    -webkit-appearance: none;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    border: 2px solid #b5805d; /* Lighter brown border color for checkbox */
+    background-color: #ffccaa; /* Light peach background color */
+    border-radius: 50%; /* Make it a circle */
+    cursor: pointer;
+    outline: none;
+}
+
+li input[type="checkbox"]:checked {
+    background-color: #ff65a3; /* Peachy pink background color when checked */
+    border-color: #ff65a3; /* Peachy pink border color when checked */
+}
+
+li label {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    color: #7c4c38; /* Lighter brown color for the task text */
+    font-size: 18px;
+}

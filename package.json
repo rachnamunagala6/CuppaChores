@@ -1,0 +1,17 @@
+{
+  "name": "cuppachores",
+  "version": "1.0.0",
+  "description": "A charming to-do list application",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^26.3.0",
+    "electron-drag": "^2.0.0"
+  }
+}

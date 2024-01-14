@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CuppaChores</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div id="custom-title-bar">
+        <div id="window-controls">
+            <div id="minimize" onclick="minimizeWindow()">-</div>
+            <div id="maximize" onclick="maximizeWindow()">+</div>
+            <div id="close" onclick="closeWindow()">x</div>
+        </div>
+    </div>
+    <div id="myApp">
+        <div id="title-bar">
+            <h1>CuppaChores</h1>
+            <img src="kawaii-coffee.png" alt="Coffee Icon" class="image-decoration">
+        </div>
+        <button onclick="addTask()">Add Brew</button>
+        <ul id="taskList">
+        </ul>
+    </div>
+
+    <script src="renderer.js"></script>
+
+</body>
+</html>
